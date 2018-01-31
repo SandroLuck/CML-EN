@@ -20,7 +20,7 @@ https://github.com/changun/CollMetric
 
 ## Run
 
-    python CML.py
+    python CML-EN.py
 
 The error warning in the beginning is normal.
 The reason for this error is, that if randomly intialized: 
