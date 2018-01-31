@@ -1,17 +1,29 @@
-This is an example of the CML-EN:
-The dataset included is goodbooks10k
-to run it:
+## **CML-EN:**
+This is the code for the CML-EN.
+This project is based on the CML from:
+https://github.com/changun/CollMetric
 
-python CML.py
+The dataset included is goodbooks10k:
+https://github.com/zygmuntz/goodbooks-10k
+
+
+----------
+
+## Install:
+
+Python 2.7.13
+tensorflow, we used the gpu version and the AdamOptimizer.
+It can also be run using the AdagradOptimizer.
+Additional Installation instructions can be found:
+https://github.com/changun/CollMetric
+
+
+## Run
+
+    python CML.py
 
 The error warning in the beginning is normal.
 The reason for this error is, that if randomly intialized: 
 Some values will be zero in the beginning and this throws an error.
 However, this has nothing to do with the training.
-It is related to the Evaluation 
-
-To install:
-python 2.7.13
-tensorflow, we used the gpu version.
-And the AdamOptimizer,
-this can be changed but needs retuning the parameters
+It is related to the Evaluation.
